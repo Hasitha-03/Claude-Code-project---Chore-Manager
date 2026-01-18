@@ -1,0 +1,37 @@
+.recurrence-selector {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: var(--gray-50);
+  border-radius: 8px;
+}
+
+.recurrence-options {
+  margin-top: 1rem;
+}
+
+.weekday-selector {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.weekday-btn {
+  flex: 1;
+  padding: 0.75rem 0.5rem;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.weekday-btn:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+.weekday-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
