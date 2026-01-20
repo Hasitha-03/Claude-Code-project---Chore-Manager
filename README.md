@@ -21,12 +21,9 @@ A desktop-first web application for managing team chores with an Outlook-style c
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js 18+
+### Prerequisites - Node.js 18+
 
 ### Installation
-
 1. Clone the repository
 2. Install dependencies:
 
@@ -34,9 +31,7 @@ A desktop-first web application for managing team chores with an Outlook-style c
 npm install
 ```
 
-### Running the App
-
-Start the development server:
+### Running the App Start the development server:
 
 ```bash
 npm run dev
